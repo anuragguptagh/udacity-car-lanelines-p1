@@ -3,9 +3,9 @@ a) Get a grayscale image - that enables us to process differently colored lane l
 b) Blur the image to reduce noise  
 c) Use canny algorithm to extract edges  
 d) Use Hough transform to select distinct and useful lines  
-e) Apply heuristics to weed out some unnecessry images  
-f) Merge smaller and sometimes diverging lines to propose lane lines  
-g) Smoothen changes in lane lines by taking a moving average of recent past lane lines  
+e) Apply heuristics to weed out some unnecessary edges  
+f) Merge directionally similar but sometimes diverging lines to propose lane lines  
+g) Smoothen changes in lane lines over time by taking a moving average of recent past lane lines  
 
 # Shortcomings
 a) All parameters are currently heuristically determined  
