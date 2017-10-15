@@ -1,5 +1,3 @@
-# udacity-car-lanelines-p1
-
 # Pipeline
 a) Get a grayscale image - that enables us to process differently colored lane lines similarly  
 b) Blur the image to reduce noise  
