@@ -12,7 +12,7 @@ a) All parameters are currently heuristically determined
 b) All lane lines are straight  
 c) Region of interest is near-statically determined and does not account for many real-life considerations  
 
-# Possible Impvements
+# Possible Improvements
 a) Heuristics and parameters (for image processing/CV algorithms) can be improved via deeper experience with vision  
 b) Many parameters can be machine-learnt via examples  
 c) Moving averages, line merging schemes can be adaptive in nature  
